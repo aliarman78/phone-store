@@ -68,6 +68,7 @@ const displaySearchResult = (phones) => {
 
 }
 
+
 //Api Link
 const loadPhoneDetail = (phoneId) => {
   fetch(`https://openapi.programming-hero.com/api/phone/${phoneId}`)
